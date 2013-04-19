@@ -17,7 +17,7 @@ class InterestedView(CreateView):# FormView):
     def form_valid(self, form):
         message = \
 """From: Potential Customer <landing@avinetworks.com>
-To: Paul Nichols <pnichols@avinetworks.com>
+To: Paul Nichols <pnichols@avinetworks.com>, Guru Chahal <guru@avinetworks.com>
 Subject: [interested] - %s
 
 """ % (form.cleaned_data['email'])

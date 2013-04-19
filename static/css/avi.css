@@ -1,0 +1,122 @@
+nav {
+  display: block;
+  border-bottom: solid thin;
+  height: 80px;
+  line-height: 80px;
+  box-shadow: 5px 5px 5px #888;
+  background-color: rgb(16, 37, 63);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 10000;
+}
+
+@media (max-width: 500px){
+    .navinner {
+        visibility: hidden;
+    }
+}
+@media (max-width: 780px) {
+    .mission {
+        visibility: hidden;
+    }
+}
+
+.navinner {
+    padding-right: 25px;
+    list-style: none;
+}
+
+.logo {
+    padding-left: 5px;
+    height: 60px;
+}
+
+section {
+    padding-top: 100px;
+    margin-top: -100px;
+    z-index: 1000;
+}
+
+.avi-well {
+    border: solid thin;
+    border-color:darkgrey
+}
+
+#avi-hello {
+  /*background-color: rgb(033,070,137);*/
+  /*background-color: rgb(055, 139, 206);*/
+  border: solid thin;
+  /*height: 400px;*/
+  background-color: RGB(248,239,236);
+}
+
+footer {
+  display: block;
+  border-top: solid thin;
+  height: 140px;
+  left: 0px;
+  background-color: rgb(033,070,137);
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #e9e9e9 url(../img/tiny_grid.png) repeat 0 0;
+  margin-top: 100px;
+  /*
+  background-color: lightgrey;
+  font-family: 'Quicksand', sans-serif;
+  */
+}
+h1 {
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 45px;
+}
+h2 {
+    font-weight: 300;
+}
+h3 {
+    font-weight: 200;
+}
+p {
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+p.contact{
+    padding-left: 20px;
+    color:white;
+}
+
+#joinus {
+  color: lightblue;
+}
+#joinus:hover {
+  color: yellow;
+}
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+.inner-shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid thin;
+  border-width: 1px 0;
+  margin: 18px 0;
+}

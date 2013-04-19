@@ -1,0 +1,21 @@
+server {
+
+    listen 80;
+    server_name .avinetworks.com;
+    access_log /var/log/nginx/sample_project.access.log;
+    error_log /var/log/nginx/sample_project.error.log;
+
+    root /home/ubuntu/Landing;
+    index index.html;
+#    location / {
+#autoindex  on;
+#        alias /home/ubuntu/Landing;
+#        expires 1d;
+#    }
+
+    location /interested {
+        include fastcgi_params;
+        fastcgi_pass 127.0.0.1:8000;
+        fastcgi_split_path_info ^()(.*)$;
+    }
+}

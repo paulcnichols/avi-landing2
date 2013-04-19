@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Avi Networks</title>
+  <meta name="description" content="avi landing page">
+  <meta name="author" content="paul c nichols">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+    
+  <!--
+  <link rel="stylesheet" href="css/skeleton/skeleton.css">
+  <link rel="stylesheet" href="css/skeleton/base.css">
+  <link rel="stylesheet" href="css/skeleton/layout.css">
+  -->
+  <link rel="stylesheet" href="css/skeleton/button.css">
+  
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="css/avi.css">
+    
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38085992-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+  <nav>
+    <div class="container">
+      <div class="offset1 span9">
+        <div class="navbar navbar-inverse ">
+          <a href="#"><img src="img/logo.png" class="logo"></a>
+          <ul class="nav pull-right navinner">
+            <li><a href="#what">The Mission</a></li>
+            <li><a href="#who">The Team</a></li>
+            <li><a href="#join" id="joinus">Join Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+  <!--
+    <nav>
+      <div class="row">
+        <div class="container">
+          <div class="offset1 span9">
+            <div class="navbar navbar-inverse ">
+              <a href="#"><img src="img/logo.png" class="logo"></a>
+              <ul class="nav pull-right navinner">
+                <li><a href="#what">The Mission</a></li>
+                <li><a href="#who">The Team</a></li>
+                <li><a href="#join" id="joinus">Join Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    -->
+    
+    <section id="what">
+    <div class="row">
+      <div class="offset1 span9 well one-edge-shadow" id="avi-hello">
+        <h1>The Mission</h1>
+        <hr/>
+        <div class="row">
+          <div class="span5">
+            <p>
+            We are in stealth and patiently putting in place the core building blocks of our technology. Please do sign up and we'll reach back out as we get close to launching! 
+            </p>
+            <form method="post" action="/interested" id="form">
+              <input type="text" name="email" id="email" placeholder="Email">
+              <button class="btn" onclick="$('#form').toggle()">Keep Me Posted</button><!-- tehe -->
+            </form>
+          </div>
+          <div class="span4 mission"><img src="./img/logo_large.png"></div>
+        </div>
+        
+        <!--
+        <img src="./img/office_logo.png" >
+        <div class="row">
+          <div class="offset6 span3">
+            <form>
+              <input type="text"></input>
+              <button>Tell Me More</button>
+            </form>
+          </div>
+        </div>
+        -->
+      </div>
+    </div>
+    </section>
+    
+    <section id="who">
+    <div class="row">
+      <div class="offset1 span9 well avi-well">
+        <h1>The Team</h1>
+        <hr/>
+        <div class="row">
+          <div class="span4">
+            <img src="img/office_logo.png" class="img-polaroid">
+          </div>
+          <div class="span5">
+            <p>With some of the best minds from high performance Networking, Big Data, Virtualization, and Analytics, the Avi team is an unique example of what is possible in Silicon Valley.</p>
+            <p>We are a passionate engineering centric team, driven by the desire to develop the next generation networking systems in close partnership with our customers. </p>
+            <p>We are engineers, customer evangelists, aviation buffs, chess wizards, skiers, runners, climbers, world travelers, coffee drinkers, foodies, environmentalists, and above all disruptors. </p>
+          </div>
+        </div>
+        <h2>Our Founders</h2>
+        <hr/>
+        <div class="row">
+          <div class="span3">
+            <div class="thumbnail">
+              <a href="http://www.linkedin.com/pub/umesh-mahajan/1/168/2a4/"><img class="img-polaroid" alt="Umesh" src="img/umesh.png"></a>
+              <div class="caption">
+                <h3>Umesh, CEO - <a onclick="$('#umesh-bio').toggle();">Bio</a></h3>
+                <p style="display: none" id="umesh-bio"><small>
+                A senior executive with over 25+ years of experience, Umesh has helped develop the vision, strategy and execution plan for several innovative technology products. 
+                Most recently, Umesh was the VP/GM for a $2B+ Data Center switching business at Cisco leading engineering, product management and operations for Nexus 7000 and MDS switching products and the NXOS operating system. 
+                Umesh has a Masters from Duke and a Bachelors from IIT Delhi and has over 26 patents to date.
+                </small></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="span3">
+            <div class="thumbnail">
+              <a style="display: inline-block" href="http://www.linkedin.com/pub/murali-basavaiah/2/285/714"><img class="img-polaroid" alt="Murali" src="img/murali.png"></a>
+              <div class="caption">
+                <h3>Murali, VP Eng - <a onclick="$('#murali-bio').toggle()">Bio</a></h3>
+                <p style="display: none" id="murali-bio"><small>
+                With 20+ years of expertise in Distributed Systems, Networking, and Storage, Murali was most recently the VP of Software Engineering for the Data Center group at Cisco, having joined Cisco through the acquisition of Andiamo Networks. 
+                Prior to Cisco, Murali was Chief Architect at Shasta Networks (acquired by Nortel), where he led the architecture for the innovative Shasta Broadband IP Services Platform,  a distributed multi-subscriber services engine. 
+                Murali has a Masters in CS from Arizona State University, a certificate from the Stanford Executive Program and over 20 patents to date. 
+                </small></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="span3">
+            <div class="thumbnail">
+              <a href="http://www.linkedin.com/pub/ranga-rajagopalan/1/828/a56/"><img class="img-polaroid" alt="Ranga" src="img/blue-steel.jpg"></a>
+              <div class="caption">
+                <h3>Ranga, CTO - <a onclick="$('#ranga-bio').toggle()">Bio</a></h3>
+                <p style="display: none" id="ranga-bio"><small>
+                Ranga has architected and developed several high performance distributed operating systems, networking, and storage data center products over the last 15 years. 
+                Most recently, he was Sr. Director at Cisco's Data Center business unit, which he joined through the acquisition of Andiamo Networks where he was one of the lead architects for SANOS operating system. Ranga started his career at SGI as an IRIX kernel engineer for the Origin series of ccNUMA servers. 
+                Ranga has a Masters in EE from Stanford University and several patents in networking and storage.
+                </small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br/>
+        <h2>Our Investors</h2>
+        <hr/>
+        <div class="row">
+          <div class="span4">
+            <a href="http://greylock.com/"><img src="./img/greylock.png"></a>
+          </div>
+          <div class="offset1 span4">
+            <a href="http://lsvp.com/"><img src="./img/lightspeed.png"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span9">
+          <p>Our investors include two of the top infrastructure investors today, particularly in networking, Greylock Partners and Lightspeed Venture Partners.</p>
+          <p>Their combined experience and guidance keep us focused on the ultimate goal - Build the next major Silicon Valley based network infrastructure company!</p>
+          </div>
+        </div>
+        <!--
+        <div class="row">
+          <div class="offset1 span3">
+            <h3>Asheem Chandna</h3>
+            <a href="http://www.greylock.com/teams/4-asheem-chandna"><img class="img-polaroid" alt="140x140" style="width: 140px; height: 140px;" src="img/asheem.jpg"></a>
+            <p>Greylock Partners</p>
+          </div>
+          <div class="offset1 span4">
+            <h3>Barry Eggers</h3>
+            <a href="http://lsvp.com/team/barry-eggers/"><img class="img-polaroid" alt="140x140" style="width: 140px; height: 140px;" src="img/barry.jpg"></a>
+            <p>Lightspeed Venture Partners</p>
+          </div>
+        </div>
+        -->
+      </div>
+    </div>
+    </section>
+    
+    <section id="join">
+    <div class="row"">
+      <div class="offset1 span9 well avi-well">
+        <h1>Join Us!</h1>
+        <hr/>
+        <div class="row">
+          <div class="span5">
+            <h2>Our Culture</h2>
+            <p>We are an open, respectful, and mature team that likes to foster a culture of trust and excellence. </p>
+            <h2>Our Perks</h2>
+            <p>Amazing coffee, lunch everyday, Ping-Pong, Foosball, walking distance from two gyms and a brewery.</p>
+            <h2>Open Positions</h2>
+            <ul id="open-jobs"></ul>
+          </div>
+          <div class="span4">
+            <img src="img/chris.jpg" class="img-polaroid">
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="offset1 span9">
+          <p class="contact"><small>Copyright 2013 Avi Networks. All Rights Reserved.<br/>
+          Email: info@avinetworks.com <br/>
+          Phone: 408-628-1300 <br/>
+          Location: 945 Stewart Dr., Suite 150, Sunnyvale, CA 94085</small></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript">
+  function add_job(o) {
+    $.each(o.jobs, function (i, j) {
+      $("#open-jobs").append("<li><a href='"+j.detail_url+"'>"+j.title+"</a></li>");
+    });
+    return o;
+  }
+  </script>
+  <script type="text/javascript" src="http://www.jobscore.com/jobs/avinetworks/feed.json?callback=add_job"></script>
+</body>
+</html>
